@@ -1,11 +1,13 @@
 def call() {
-	pipeline {
-		stages {
-			stage('testing') {
-				steps {
-					echo 'Testing abc'
-				}
-			}
-		}
-	}
+    pipeline {
+        agent any
+
+        stages {
+            stage('testing') {
+                steps {
+                    echo 'Testing abc'
+                }
+            }
+        }
+    }
 }

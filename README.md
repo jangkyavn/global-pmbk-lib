@@ -1,2 +1,2 @@
-# global-logistics-lib
-Config global CI/CD for logistics
+# global-pmbk-lib
+Config global CI/CD for pmbk products
